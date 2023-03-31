@@ -4,7 +4,7 @@ blastn -query mystery_nucleotide_query.fasta -task megablast -db mystery_transcr
 T010027234997
 awk '$3 >= 90 {print $2}' blast_results.txt >> most_similar.txt
 blastp -query mystery_protein_query.fasta -db mystery_proteins_database.prot -out blast_results_1.txt -evalue 1e-5 -max_hsps 15 -outfmt 7
-P010027090796
+P010027090796, P010027090798, P010027073865, P010027077695
 Coffea arabica
 jasminoides
 Gardenia 
