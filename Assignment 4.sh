@@ -7,4 +7,4 @@ blastp -query mystery_protein_query.fasta -db mystery_proteins_database.prot -ou
 P010027090796, P010027090798, P010027073865, P010027077695
 Coffea arabica
 jasminoides
-Catalase
+Gardenia jasminoides putative catalase mRNA
